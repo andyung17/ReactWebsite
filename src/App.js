@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <p>Successfully Deployed <code>A React application</code> to Netlify with CircleCI</p>
         </p>
         <a
           className="App-link"
