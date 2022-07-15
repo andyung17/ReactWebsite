@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <p>Successfully Deployed <code>A React application</code> to Netlify with CircleCI</p>
+          <p>Test message</p>
         </p>
         <a
           className="App-link"
