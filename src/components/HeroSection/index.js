@@ -18,7 +18,7 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video2.mp4'/>
         </HeroBg>
         <HeroContent>
-            <img src={require('../../images/myface-modified.png')} style={{height:150, width:150, position: 'relative'}} alt="Andy Ung face"></img>
+            <img src={require('../../images/myface-modified.png')} style={{height:150, width:150, position: 'relative'}} alt="Andy ng face"></img>
             <HeroH1>Welcome to my Website</HeroH1>
             <HeroP> 
                 I'm a 4th year software engineer studying at the University of Ottawa.
