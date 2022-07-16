@@ -2011,20 +2011,20 @@
   "resolved" "https://registry.npmjs.org/@netlify/binary-info/-/binary-info-1.0.0.tgz"
   "version" "1.0.0"
 
-"@netlify/build@^27.3.3":
-  "integrity" "sha512-n7lGpd2gcUE7Iy12Du5UvWI4kuooSwnSG6yvhRk0egOSq7yRBmAkT8evnzAcjgfq2Ze0JNO/9x8epDKOCeDtbQ=="
-  "resolved" "https://registry.npmjs.org/@netlify/build/-/build-27.3.3.tgz"
-  "version" "27.3.3"
+"@netlify/build@^27.4.0":
+  "integrity" "sha512-tNm1wpV3ZznjBG2Lsa9XVrNpPX5ateKLHEIbSjnO40Xcw6JIlV4iSB66lTin7xr92w7tzDRuY1dcDvFEI2Fy4A=="
+  "resolved" "https://registry.npmjs.org/@netlify/build/-/build-27.4.0.tgz"
+  "version" "27.4.0"
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
     "@netlify/config" "^18.1.1"
-    "@netlify/edge-bundler" "^1.4.2"
-    "@netlify/functions-utils" "^4.2.0"
+    "@netlify/edge-bundler" "^1.5.0"
+    "@netlify/functions-utils" "^4.2.1"
     "@netlify/git-utils" "^4.0.0"
-    "@netlify/plugins-list" "^6.29.0"
+    "@netlify/plugins-list" "^6.33.0"
     "@netlify/run-utils" "^4.0.0"
-    "@netlify/zip-it-and-ship-it" "5.11.1"
+    "@netlify/zip-it-and-ship-it" "5.13.0"
     "@sindresorhus/slugify" "^2.0.0"
     "@types/node" "^16.0.0"
     "ansi-escapes" "^5.0.0"
@@ -2115,7 +2115,7 @@
     "validate-npm-package-name" "^4.0.0"
     "yargs" "^17.3.1"
 
-"@netlify/edge-bundler@^1.4.2", "@netlify/edge-bundler@^1.5.0":
+"@netlify/edge-bundler@^1.5.0":
   "integrity" "sha512-vkF0cw1B8/AP6leqS9bsxL7HQ5Te/E+/sVDjJ5OHNHdDsKQFOn13wWSlMRaT0yX04f4QOjXxv0IMSlDfQjHLSQ=="
   "resolved" "https://registry.npmjs.org/@netlify/edge-bundler/-/edge-bundler-1.5.0.tgz"
   "version" "1.5.0"
@@ -2177,12 +2177,12 @@
     "read-pkg-up" "^9.0.0"
     "semver" "^7.3.4"
 
-"@netlify/functions-utils@^4.2.0":
-  "integrity" "sha512-erWu+M2xaRuALqWy9dNaVORgco0TYGCcV6ZoFayJZWJPeMxM+aVK9e1d1F5iuphVRKIL08f6w4QJniUC2OCiYQ=="
-  "resolved" "https://registry.npmjs.org/@netlify/functions-utils/-/functions-utils-4.2.0.tgz"
-  "version" "4.2.0"
+"@netlify/functions-utils@^4.2.1":
+  "integrity" "sha512-Wjq2jixsSu6JwnyRUZzYn9YUrhl30Fn5V28+4WJ/PhnpT1+atFwRj2JgUesnzZeDIFe3a2wjjCd8pOx4kZCJEw=="
+  "resolved" "https://registry.npmjs.org/@netlify/functions-utils/-/functions-utils-4.2.1.tgz"
+  "version" "4.2.1"
   dependencies:
-    "@netlify/zip-it-and-ship-it" "5.11.1"
+    "@netlify/zip-it-and-ship-it" "5.13.0"
     "cpy" "^8.1.0"
     "path-exists" "^5.0.0"
 
@@ -2225,10 +2225,10 @@
   "resolved" "https://registry.npmjs.org/@netlify/open-api/-/open-api-2.10.0.tgz"
   "version" "2.10.0"
 
-"@netlify/plugins-list@^6.29.0", "@netlify/plugins-list@^6.32.0":
-  "integrity" "sha512-ZYaik41Xl7Jg7k204daKG26eT8pywThqvrwsDqW3gVuVx+Clo3uSrPTwNEuHme9Py0smdw2/oG2qp1jH3Q5sLQ=="
-  "resolved" "https://registry.npmjs.org/@netlify/plugins-list/-/plugins-list-6.32.0.tgz"
-  "version" "6.32.0"
+"@netlify/plugins-list@^6.33.0":
+  "integrity" "sha512-B5JDoCGiILa7fdN8/7kgfchfw7ypuVZ3G+OStIt4PtAt2IH9691iCIVGEU7FOU3LM/ryQMRaVNAsEVrqiNPEmA=="
+  "resolved" "https://registry.npmjs.org/@netlify/plugins-list/-/plugins-list-6.33.0.tgz"
+  "version" "6.33.0"
 
 "@netlify/run-utils@^4.0.0":
   "integrity" "sha512-6xwmYJWcQkRTdtA/u6WFRYBTuU7j9j+lh7Ld2+6TsUricnyg4orMIKQBdmVYM3tGbzzAidTOjzmbc8XXzQOo6g=="
@@ -2237,10 +2237,10 @@
   dependencies:
     "execa" "^6.0.0"
 
-"@netlify/zip-it-and-ship-it@^5.12.0":
-  "integrity" "sha512-ebLejCn0AO/ovYHv0w457B+Jjk8Z2vtkIuX6n/hQYiKHNDAj06zGCyzlJ9jOwtj2CVREAjz68f8/HdDxnEOW6Q=="
-  "resolved" "https://registry.npmjs.org/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-5.12.0.tgz"
-  "version" "5.12.0"
+"@netlify/zip-it-and-ship-it@^5.13.0", "@netlify/zip-it-and-ship-it@5.13.0":
+  "integrity" "sha512-JlZAWwIjs9cIYIOO1Xw/OXRvXy1VXd+h5ZKuH8Lug1JCub0hGM8XIh3TnNsqHrjwsC/Oh5UucTba4SPuIU9Xag=="
+  "resolved" "https://registry.npmjs.org/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-5.13.0.tgz"
+  "version" "5.13.0"
   dependencies:
     "@babel/parser" "7.16.8"
     "@netlify/binary-info" "^1.0.0"
@@ -2250,43 +2250,6 @@
     "common-path-prefix" "^3.0.0"
     "cp-file" "^9.0.0"
     "del" "^6.0.0"
-    "end-of-stream" "^1.4.4"
-    "es-module-lexer" "^0.10.0"
-    "execa" "^5.0.0"
-    "filter-obj" "^2.0.1"
-    "find-up" "^5.0.0"
-    "glob" "^8.0.3"
-    "is-builtin-module" "^3.1.0"
-    "junk" "^3.1.0"
-    "locate-path" "^6.0.0"
-    "merge-options" "^3.0.4"
-    "minimatch" "^5.0.0"
-    "normalize-path" "^3.0.0"
-    "p-map" "^4.0.0"
-    "path-exists" "^4.0.0"
-    "precinct" "^9.0.1"
-    "read-package-json-fast" "^2.0.2"
-    "require-package-name" "^2.0.1"
-    "resolve" "^2.0.0-next.1"
-    "semver" "^7.0.0"
-    "tmp-promise" "^3.0.2"
-    "toml" "^3.0.0"
-    "unixify" "^1.0.0"
-    "yargs" "^17.0.0"
-
-"@netlify/zip-it-and-ship-it@5.11.1":
-  "integrity" "sha512-xjDmbTcrzSvQvyYK/rAsHq7R1UQIDpn4KUjxEgrc0S/cjpvzQ610JtRz3JMrnSvjzOTTnLlBOD3b+aow1Edt9g=="
-  "resolved" "https://registry.npmjs.org/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-5.11.1.tgz"
-  "version" "5.11.1"
-  dependencies:
-    "@babel/parser" "7.16.8"
-    "@netlify/esbuild" "0.14.25"
-    "@vercel/nft" "^0.20.0"
-    "archiver" "^5.3.0"
-    "common-path-prefix" "^3.0.0"
-    "cp-file" "^9.0.0"
-    "del" "^6.0.0"
-    "elf-cam" "^0.1.1"
     "end-of-stream" "^1.4.4"
     "es-module-lexer" "^0.10.0"
     "execa" "^5.0.0"
@@ -5186,7 +5149,7 @@
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
 
-"chalk@^4.0.0", "chalk@^4.1.0":
+"chalk@^4.0.0", "chalk@^4.1.0", "chalk@^4.1.2":
   "integrity" "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
   "resolved" "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
   "version" "4.1.2"
@@ -5624,11 +5587,6 @@
   "resolved" "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   "version" "2.20.3"
 
-"commander@^3.0.2":
-  "integrity" "sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow=="
-  "resolved" "https://registry.npmjs.org/commander/-/commander-3.0.2.tgz"
-  "version" "3.0.2"
-
 "commander@^7.2.0":
   "integrity" "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw=="
   "resolved" "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
@@ -5639,7 +5597,7 @@
   "resolved" "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
   "version" "8.3.0"
 
-"commander@^9.0.0", "commander@^9.1.0", "commander@^9.2.0":
+"commander@^9.0.0", "commander@^9.1.0", "commander@^9.2.0", "commander@^9.3.0":
   "integrity" "sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw=="
   "resolved" "https://registry.npmjs.org/commander/-/commander-9.3.0.tgz"
   "version" "9.3.0"
@@ -7140,11 +7098,6 @@
   "integrity" "sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4="
   "resolved" "https://registry.npmjs.org/elegant-spinner/-/elegant-spinner-1.0.1.tgz"
   "version" "1.0.1"
-
-"elf-cam@^0.1.1":
-  "integrity" "sha512-tKSFTWOp5OwJSp6MKyQDX7umYDkvUuI8rxHXw8BuUQ63d9Trj9xLeo6SHyoTGSoZNNZVitFa+RuHHXuoAzN3Rw=="
-  "resolved" "https://registry.npmjs.org/elf-cam/-/elf-cam-0.1.1.tgz"
-  "version" "0.1.1"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -12944,17 +12897,17 @@
   "version" "2.1.0"
 
 "netlify-cli@^10.9.0":
-  "integrity" "sha512-79jF2PpD8hDlxHtdWnpyxtjFWW6QY17H5tuuIJBaD+6yo2ZxPnbnx7NcYRIY1BdnKO6WH3pCSoDYYXrPvkYngw=="
-  "resolved" "https://registry.npmjs.org/netlify-cli/-/netlify-cli-10.9.0.tgz"
-  "version" "10.9.0"
+  "integrity" "sha512-fD+4YtWU5T5W+3I1mCZv23PVaFuO0zcUTg83TqKg6j8tfN3twQy7cU+cU6oBjtDcyMoC6ShnpqFpOm4m5H/clA=="
+  "resolved" "https://registry.npmjs.org/netlify-cli/-/netlify-cli-10.10.0.tgz"
+  "version" "10.10.0"
   dependencies:
-    "@netlify/build" "^27.3.3"
+    "@netlify/build" "^27.4.0"
     "@netlify/config" "^18.1.1"
     "@netlify/edge-bundler" "^1.5.0"
     "@netlify/framework-info" "^9.1.0"
     "@netlify/local-functions-proxy" "^1.1.1"
-    "@netlify/plugins-list" "^6.32.0"
-    "@netlify/zip-it-and-ship-it" "^5.12.0"
+    "@netlify/plugins-list" "^6.33.0"
+    "@netlify/zip-it-and-ship-it" "^5.13.0"
     "@octokit/rest" "^18.0.0"
     "@sindresorhus/slugify" "^1.1.0"
     "ansi-escapes" "^5.0.0"
@@ -13053,7 +13006,7 @@
     "unixify" "^1.0.0"
     "update-notifier" "^5.0.0"
     "uuid" "^8.0.0"
-    "wait-port" "^0.2.14"
+    "wait-port" "^0.3.0"
     "winston" "^3.2.1"
     "write-file-atomic" "^4.0.0"
 
@@ -18610,14 +18563,14 @@
   dependencies:
     "xml-name-validator" "^3.0.0"
 
-"wait-port@^0.2.14":
-  "integrity" "sha512-kIzjWcr6ykl7WFbZd0TMae8xovwqcqbx6FM9l+7agOgUByhzdjfzZBPK2CPufldTOMxbUivss//Sh9MFawmPRQ=="
-  "resolved" "https://registry.npmjs.org/wait-port/-/wait-port-0.2.14.tgz"
-  "version" "0.2.14"
+"wait-port@^0.3.0":
+  "integrity" "sha512-seNQ7j92tG5uaylFK3RrAajajzpNMOr96pcCsD8cWGtVn4XXsFUMf9vzNcZSXVaMEfuZT/0t/Wc0KN+m74QYkw=="
+  "resolved" "https://registry.npmjs.org/wait-port/-/wait-port-0.3.0.tgz"
+  "version" "0.3.0"
   dependencies:
-    "chalk" "^2.4.2"
-    "commander" "^3.0.2"
-    "debug" "^4.1.1"
+    "chalk" "^4.1.2"
+    "commander" "^9.3.0"
+    "debug" "^4.3.4"
 
 "walker@^1.0.7":
   "integrity" "sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ=="
