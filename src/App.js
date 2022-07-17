@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Home from './pages';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import CardDisplay from './pages/jobs';
 
 function App() {
