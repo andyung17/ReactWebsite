@@ -1,12 +1,24 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaGithub, FaRegEnvelope} from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
+import { FaLinkedin, FaGithub, FaRegEnvelope} from 'react-icons/fa'
+// import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
+
+import { FooterContainer, 
+    FooterWrap, 
+    FooterLinkWrapper, 
+    FooterLinkItems, 
+    FooterLinkContainer, 
+    FooterLinkTitle, 
+    SocialIconLink, 
+    SocialMedia} from './FooterElements'
+
 import { animateScroll as scroll } from 'react-scroll';
 
+//https://react-icons.github.io/react-icons/icons?name=fa
+
 const Footer = () => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  }
+//   const toggleHome = () => {
+//     scroll.scrollToTop();
+//   }
 
   return (
     <FooterContainer>

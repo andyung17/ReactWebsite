@@ -19,7 +19,7 @@ const Projects = () => {
           <ServicesIcon src={Icon2}></ServicesIcon>
           <ServicesH2>FYON Discord bot</ServicesH2>
           <ServicesP>Gathering up-to-date information about anime.</ServicesP>
-          <ServicesP>Technologies: <br/>Node.js, Python, JikanAPI, DiscordAPI, Heroku</ServicesP>
+          <ServicesP>Technologies: <br/>Node.js, Python, JikanAPI, DiscordAPI, CircleCi, Heroku</ServicesP>
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={Icon1}/>
