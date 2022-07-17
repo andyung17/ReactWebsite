@@ -11,7 +11,7 @@ import { FooterContainer,
     SocialIconLink, 
     SocialMedia} from './FooterElements'
 
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 
 //https://react-icons.github.io/react-icons/icons?name=fa
 
