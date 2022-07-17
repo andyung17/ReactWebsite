@@ -7,7 +7,7 @@ import CardDisplay from './pages/jobs';
 function App() {
   return (
     <Router>
-      <div style={{backgroundColor:'#fafafa'}}>
+      <div>  {/* style={{backgroundColor:'#fafafa'}} */}
         <Home />
         <br></br>
         {/* <Jobs/> */}
