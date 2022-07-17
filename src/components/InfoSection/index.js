@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-scroll'
+import { Button } from '../ButtonElement'
 import { InfoContainer, 
     InfoWrapper, 
     InfoRow, 
