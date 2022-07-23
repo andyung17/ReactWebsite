@@ -1,7 +1,6 @@
 import React from 'react'
 import Icon1 from '../../images/bluwave-ai.jpg'
 import Icon2 from '../../images/FYON.png'
-import Icon3 from '../../images/bluwave-ai.jpg'
 import amazonLogo from '../../images/amazon.jpg'
 import diabeticMealTracker from '../../images/diabeticMealTracker.jpg'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements'
