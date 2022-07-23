@@ -18,6 +18,7 @@ export const FooterWrap = styled.div`
 export const FooterLinkContainer = styled.div`
   display: flex;
   justify-content: center;
+  margin-right: -90px;
   margin: center;
   @media screen and (max-width: 820px) {
     padding-top: 32px;

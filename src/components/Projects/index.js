@@ -2,6 +2,8 @@ import React from 'react'
 import Icon1 from '../../images/bluwave-ai.jpg'
 import Icon2 from '../../images/FYON.png'
 import Icon3 from '../../images/bluwave-ai.jpg'
+import amazonLogo from '../../images/amazon.jpg'
+import diabeticMealTracker from '../../images/diabeticMealTracker.jpg'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements'
 
 // width="100%"
@@ -28,7 +30,7 @@ const Projects = () => {
           <ServicesP>Technologies: <br/>mySQL.. tbc</ServicesP>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon2}/>
+        <ServicesIcon src={amazonLogo}/>
           <ServicesH2>Amazon Web Scrapper</ServicesH2>
           <ServicesP>Collecting information about wishlisted items.</ServicesP>
           <ServicesP>Technologies: <br/>Python, Selenium, BeautifulSoup, </ServicesP>
@@ -48,7 +50,7 @@ const Projects = () => {
           <ServicesP>Technologies: <br/>mySQL.. tbc</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3}/>
+          <ServicesIcon src={diabeticMealTracker}/>
           <ServicesH2>Diabetic Meal Tracker</ServicesH2>
           <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
         </ServicesCard>
