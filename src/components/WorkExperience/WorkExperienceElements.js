@@ -32,10 +32,11 @@ export const ServicesWrapper = styled.div`
 `
 export const ServicesCard = styled.div`
   background: #fff;
+  align-content: center;
+  margin-left: -50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   border-radius: 10px;
   max-height: 340px;
   width: 1000px;
@@ -52,6 +53,13 @@ export const ServicesIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
+  position: 'absolute';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justifyContent: 'center';
+  alignItems: 'center';
 `
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;

@@ -24,11 +24,11 @@ export const ServicesWrapper = styled.div`
     padding: 0 50px;
     @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr;
-  }
+    }
     @media screen and (max-width: 786px) {
       grid-template-columns: 1fr;
       padding: 0 20px;
-  }
+    }
 `
 export const ServicesCard = styled.div`
   background: #fff;
@@ -46,6 +46,10 @@ export const ServicesCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
+  }
+  @media screen and (max-width: 1000px) {
+    height: 300px;
+    width: 200px;
   }
 `
 export const ServicesIcon = styled.img`

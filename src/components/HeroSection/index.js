@@ -24,8 +24,9 @@ const HeroSection = () => {
                 I'm a 4th year software engineer studying at the University of Ottawa.
             </HeroP>
             <HeroBtnWrapper>
-                <Button to='test' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                    <strong>About me</strong> {hover ? <ArrowForward /> : <ArrowRight/>}
+                <Button onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' href={require('../../images/Resume.pdf')}  download = "AndyUngResume.pdf">
+                    Resume
+                    {hover ? <ArrowForward /> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>

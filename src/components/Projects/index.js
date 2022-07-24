@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from '../../images/bluwave-ai.jpg'
 import Icon2 from '../../images/FYON.png'
 import amazonLogo from '../../images/amazon.jpg'
+import gameDealFinder from '../../images/GDF.jpg'
 import diabeticMealTracker from '../../images/diabeticMealTracker.jpg'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements'
 
@@ -23,7 +23,7 @@ const Projects = () => {
           <ServicesP>Technologies: <br/>Node.js, Python, JikanAPI, DiscordAPI, CircleCi, Heroku</ServicesP>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon1}/>
+        <ServicesIcon src={gameDealFinder}/>
           <ServicesH2>Game Deal Finder</ServicesH2>
           <ServicesP>Tracks wishlisted games and shows deals acorss many websites.</ServicesP>
           <ServicesP>Technologies: <br/>mySQL.. tbc</ServicesP>

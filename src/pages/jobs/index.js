@@ -1,5 +1,6 @@
 import React from 'react'
 import { Badge } from 'react-bootstrap'
+import { Button } from '../../components/ButtonElement'
 
 const Jobs = () => {
 //   return (
@@ -27,7 +28,7 @@ const Jobs = () => {
 //   )
 
     return (
-        <div className="card mb-3 jobCard" style={{width: '1000px', backgroundColor:'#ffffff' , border: '8px solid #ffffff', margin: '0 auto', float: 'none'}}>
+        <div className="card mb-3 jobCard" style={{width: '900px', backgroundColor:'#ffffff' , border: '8px solid #ffffff', margin: '0 auto', float: 'none'}}>
         <div className="row no-gutters">
             <div className="col-md-4">
             {/* <svg
