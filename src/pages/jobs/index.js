@@ -1,6 +1,6 @@
 import React from 'react'
 import { Badge } from 'react-bootstrap'
-import { Button } from '../../components/ButtonElement'
+// import { Button } from '../../components/ButtonElement'
 
 const Jobs = () => {
 //   return (
