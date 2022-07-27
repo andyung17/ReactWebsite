@@ -10,7 +10,7 @@ export const jobObjectOne = {
     jobDescription2: 'Improved solar predictions using Ray and Hive within Python',
     jobDescription3: 'Worked on improving the run-time of a variety of microservices',
     jobDescription4: 'Practised integration testing on a variety microservices',
-    jobDescription5: '\u2022 Practised integration testing on a variety microservices',
+    // jobDescription5: '\u2022 Practised integration testing on a variety microservices',
 }
 
 export const jobObjectTwo = {
@@ -24,7 +24,7 @@ export const jobObjectTwo = {
     jobDescription: 'Developed intermediary methods for data processing in ASP.NET',
     jobDescription2: 'Implemented data verification using SQL operations in MS SQL',
     jobDescription3: 'Involved in improving UI/UX of the website using C#',
-    jobDescription4: 'Utilized X-Unit to test the functionality of the verification',
+    jobDescription4: 'Utilized X-Unit to test the functionality of data verification',
 }
 
 export const jobObjectThree = {
@@ -38,7 +38,7 @@ export const jobObjectThree = {
     jobDescription: 'Developed and improved MVC architecture in .Net WPF',
     jobDescription2: 'Utilized MVVM toolkit to create a clean user interface',
     jobDescription3: 'Deployed Firebase to track real-time user information',
-    jobDescription4: 'Added features while practising 4 pillars of OOP',
+    jobDescription4: 'Added additional controller support while practising 4 pillars of OOP',
 }
 
 export const jobObjectFour = {
@@ -52,5 +52,5 @@ export const jobObjectFour = {
     jobDescription: 'Worked with a variety of ticketing systems',
     jobDescription2: 'Managed many print queues within their systems',
     jobDescription3: 'Preformed many troubleshooting tasks to resolve problems',
-    jobDescription4: 'Created many coherent user guides to help users',
+    jobDescription4: 'Created many coherent user guides to help novice users',
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import Icon2 from '../../images/FYON.png'
 import amazonLogo from '../../images/amazon.jpg'
 import gameDealFinder from '../../images/GDF.jpg'
+import flyter from '../../images/Flyter.png'
+import buyIt from '../../images/buyIt.png'
 import diabeticMealTracker from '../../images/diabeticMealTracker.jpg'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements'
 
@@ -36,22 +38,23 @@ const Projects = () => {
         </ServicesCard>
       </ServicesWrapper> <br/>
       <ServicesWrapper>
+      <ServicesCard>
+        <ServicesIcon src={flyter}/>
+          <ServicesH2>Flyter</ServicesH2>
+          <ServicesP>Created a fake e-commerce website with products to purchase for any user</ServicesP>
+          <ServicesP>Technologies: <br/>React, CommerceJS API, Stripe API</ServicesP>
+        </ServicesCard>
         <ServicesCard>
-          <ServicesIcon></ServicesIcon>
+          <ServicesIcon src={buyIt}></ServicesIcon>
           <ServicesH2>Buy It!</ServicesH2>
           <ServicesP>Price comparison app leveraging live pricing data.</ServicesP>
           <ServicesP>Technologies: <br/>Java, Python, Android Studio, MQTT, ParseHubAPI</ServicesP>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon2}/>
-          <ServicesH2>Game Deal Finder</ServicesH2>
-          <ServicesP>Tracks wishlisted games and shows deals acorss many websites.</ServicesP>
-          <ServicesP>Technologies: <br/>mySQL.. tbc</ServicesP>
-        </ServicesCard>
-        <ServicesCard>
           <ServicesIcon src={diabeticMealTracker}/>
-          <ServicesH2>Diabetic Meal Tracker</ServicesH2>
-          <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+          <ServicesH2>TrackBite</ServicesH2>
+          <ServicesP>Fitness and meal tracker that analyzes dietary and exercise habits</ServicesP>
+          <ServicesP>Technologies: <br/>Java, Android Studio, Junit, Firebase</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
