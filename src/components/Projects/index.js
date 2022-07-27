@@ -34,7 +34,7 @@ const Projects = () => {
           <ServicesP>Collecting information about wishlisted items.</ServicesP>
           <ServicesP>Technologies: <br/>Python, Selenium, BeautifulSoup, </ServicesP>
         </ServicesCard>
-      </ServicesWrapper> <br/> <br/> <br/>
+      </ServicesWrapper> <br/>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon></ServicesIcon>
