@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-  height: 1700px;
+  height: 1800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #181818;
+  @media screen and (max-width: 768px) {
+    height: 1800px;
+  }
  `
 export const ServicesWrapper = styled.div`
     max-width: 1000px;
@@ -35,6 +38,9 @@ export const ServicesCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
+  }
+  @media screen and (max-width: 768px) {
+    width: 660px;
   }
 `
 export const ServicesIcon = styled.img`

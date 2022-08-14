@@ -46,28 +46,30 @@ const Footer = () => {
                 <FaGithub/>
               </SocialIconLink>
             </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Email</FooterLinkTitle>
+                {/* <FooterLink to='/'>Instagram</FooterLink>
+                <FooterLink to='/'>Facebook</FooterLink>
+                <FooterLink to='/'>Youtube</FooterLink>
+                <FooterLink to='/'>Twitter</FooterLink> */}
+                <SocialIconLink href="mailto:ung.andy01@gmail.com" target='_blank' arial-label='Facebook'>
+                    <FaRegEnvelope href="mailto:ung.andy01@gmail.com"/>
+              </SocialIconLink>
+            </FooterLinkItems>
           </FooterLinkWrapper>
           <FooterLinkWrapper>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>Email</FooterLinkTitle>
-                {/* <FooterLink to='/'>Instagram</FooterLink>
-                <FooterLink to='/'>Facebook</FooterLink>
-                <FooterLink to='/'>Youtube</FooterLink>
-                <FooterLink to='/'>Twitter</FooterLink> */}
                 <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                     <FaRegEnvelope/>
               </SocialIconLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Email</FooterLinkTitle>
-                {/* <FooterLink to='/'>Instagram</FooterLink>
-                <FooterLink to='/'>Facebook</FooterLink>
-                <FooterLink to='/'>Youtube</FooterLink>
-                <FooterLink to='/'>Twitter</FooterLink> */}
+            </FooterLinkItems> */}
+            {/* <FooterLinkItems>
+              <FooterLinkTitle>Resume</FooterLinkTitle>
                 <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
-                    <FaRegEnvelope/>
+                    <FaRegListAlt href={require('../../images/Resume.pdf')}  download = "AndyUngResume.pdf"><a  href={require('../../images/Resume.pdf')}  download = "AndyUngResume.pdf"></a></FaRegListAlt>
               </SocialIconLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
           </FooterLinkWrapper>
         </FooterLinkContainer>
         <SocialMedia>
