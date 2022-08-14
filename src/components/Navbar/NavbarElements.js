@@ -63,7 +63,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
     margin-top: 15px;
-    margin-left: -100px;
+    margin-left: -170px;
 
 
     @media screen and (max-width: 768px) {
@@ -98,7 +98,7 @@ export const NavBtn = styled.nav`
     }
 `
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled.button`
     border-radius: 50px;
     background-color: #01bf71;
     white-space: nowrap;

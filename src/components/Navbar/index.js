@@ -7,10 +7,11 @@ import {Nav,
     NavItem, 
     NavMenu, 
     NavLinks,
-    NavBtn,
-    NavBtnLink} from './NavbarElements';
+    NavBtn} from './NavbarElements';
 
 const Navbar = ({toggle}) => {
+
+
   return (
     <>
       <Nav>
@@ -30,11 +31,14 @@ const Navbar = ({toggle}) => {
                 <NavLinks to='projects'>Projects</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='contact'>Contact</NavLinks>
+                <NavLinks to='contact'>Contact Me</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/test'>Resume</NavBtnLink>
+              {/* <Button onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' href={require('../../images/Resume.pdf')}  download = "AndyUngResume.pdf">
+                  Resume
+                  {hover ? <ArrowForward /> : <ArrowRight/>}
+              </Button> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>

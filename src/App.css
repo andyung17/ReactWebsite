@@ -6,3 +6,41 @@
   margin: 0;
   padding: 0;
 }
+
+.jobCard{
+  width: 900px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .bd-placeholder-img {
+    display:none;
+  }
+
+  .card-body{
+    text-align: left;
+    margin-left: -50px;
+    font-size: 14px;
+    width: 500px;
+  }
+
+  .jobCard{
+    width: 600px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .card-body{
+    text-align: left;
+    margin-left: -100px;
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .jobCard{
+    width: 200px;
+  }
+
+}
