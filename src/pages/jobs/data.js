@@ -17,7 +17,7 @@ export const jobObjectTwo = {
     imgSource: require('../../images/TTC.png'),
     imgAlt: 'Transport Canada company logo', 
     jobTittle: 'Software Developer',
-    jobCompany: 'Transport Canada',
+    jobCompany: 'T.C',
     badgePrimary: 'Full-time',
     badgeSecondary: 'Ottawa',
     termDuration: '09/2021 - 04/2022',
@@ -38,14 +38,14 @@ export const jobObjectThree = {
     jobDescription: 'Developed and improved MVC architecture in .Net WPF',
     jobDescription2: 'Utilized MVVM toolkit to create a clean user interface',
     jobDescription3: 'Deployed Firebase to track real-time user information',
-    jobDescription4: 'Added additional controller support while practising 4 pillars of OOP',
+    jobDescription4: 'Added controller support while practising 4 pillars of OOP',
 }
 
 export const jobObjectFour = {
     imgSource: require('../../images/SSC.png'),
     imgAlt: 'Shared services company logo', 
     jobTittle: 'Data Technician',
-    jobCompany: 'Shared Services Canada',
+    jobCompany: 'S.S.C',
     badgePrimary: 'Full-time',
     badgeSecondary: 'Ottawa',
     termDuration: '06/2020 - 12/2020',

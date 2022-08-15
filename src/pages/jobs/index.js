@@ -40,13 +40,13 @@ const Jobs = ({jobTittle, jobCompany, badgePrimary, badgeSecondary, termDuration
         <div className="card mb-3 jobCard" style={{backgroundColor:'#ffffff' , border: '6px solid #ffffff', margin: '0 auto', float: 'none'}}>
             <div className="row p">
                 <div className="col-md-2">
-                <img className="bd-placeholder-img" width='200px' height="200px" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" src={imgSource} alt={imgAlt}>
+                <img className="bd-placeholder-img" width='200px' height="200px" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" src={imgSource} alt={imgAlt} style={{marginLeft: '-20px'}}>
                 </img>
                 {/* <Img src={imgSource} alt={imgAlt}></Img> */}
                 </div>
-                <div className="col-md-8" style={{marginLeft: '4.5rem'}}>
+                <div className="col-md-8" style={{marginLeft: '4.5rem', display: 'flex'}}>
                     <div className="card-body">
-                        <h5 className="card-title"><strong>{jobTittle}</strong> <span className='text-muted font-weight-light' style={{float: 'right'}}> {jobCompany} </span> </h5>
+                        <h5 className="card-title"><strong>{jobTittle}</strong><span className='text-muted font-weight-light card-company' style={{float: 'right', display:'inline-block'}}> {jobCompany} </span> </h5>
                             <Badge variant='secondary' className='mr-2' style={{marginBottom: '1rem'}}>
                                 {badgePrimary}
                             </Badge>
