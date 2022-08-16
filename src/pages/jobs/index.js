@@ -40,7 +40,7 @@ const Jobs = ({jobTittle, jobCompany, badgePrimary, badgeSecondary, termDuration
         <div className="card mb-3 jobCard" style={{backgroundColor:'#ffffff' , border: '6px solid #ffffff', margin: '0 auto', float: 'none'}}>
             <div className="row p">
                 <div className="col-md-2">
-                <img className="bd-placeholder-img" width='200px' height="200px" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" src={imgSource} alt={imgAlt} style={{marginLeft: '-20px'}}>
+                <img className="bd-placeholder-img" width='200px' height="200px" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" src={imgSource} alt={imgAlt}>
                 </img>
                 {/* <Img src={imgSource} alt={imgAlt}></Img> */}
                 </div>
