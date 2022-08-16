@@ -11,6 +11,7 @@ import { jobObjectOne, jobObjectTwo, jobObjectThree, jobObjectFour } from '../..
 const WorkExperience = () => {
   return (
     <ServicesContainer id='work-experience'>
+      <br/><br/><br/><br/>
       <ServicesH1>Work Experience</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
@@ -35,6 +36,7 @@ const WorkExperience = () => {
           <CardDisplay {...jobObjectFour}/>
         </ServicesCard>
       </ServicesWrapper>
+      <br/><br/><br/><br/>
     </ServicesContainer>
   )
 }

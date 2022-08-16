@@ -18,7 +18,6 @@ export const FooterWrap = styled.div`
 export const FooterLinkContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-right: -180px;
   margin: center;
   @media screen and (max-width: 820px) {
     padding-top: 32px;
@@ -27,18 +26,21 @@ export const FooterLinkContainer = styled.div`
 
 export const FooterLinkWrapper = styled.div`
   display: flex;
-  @media screen and (max-width: 820px) {
+  grid-template-columns: 1fr 1fr 1fr;
+  @media screen and (max-width: 626px) {
     flex-direction: column;
+    margin-right: -10px;
   }
 `
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 30px;
-  margin-left: 90px;
-  text-align: left;
-  width: 160px;
+  align-items: center;
+  // margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  max-width: 160px;
   box-sizing: border-box;
   color: #fff;
   @media screen and (max-width: 420px) {

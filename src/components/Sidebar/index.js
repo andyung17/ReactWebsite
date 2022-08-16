@@ -5,8 +5,9 @@ import {SidebarContainer,
     SidebarWrapper, 
     SidebarMenu, 
     SidebarLink, 
-    SideBtnWrap, 
-    SidebarRoute } from './SidebarElements'
+    // SideBtnWrap, 
+    // SidebarRoute 
+    } from './SidebarElements'
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
@@ -26,9 +27,9 @@ const Sidebar = ({isOpen, toggle}) => {
                     Contact
                 </SidebarLink>
             </SidebarMenu>
-            <SideBtnWrap>
+            {/* <SideBtnWrap>
                 <SidebarRoute to='/test'>Test</SidebarRoute>
-            </SideBtnWrap>
+            </SideBtnWrap> */}
         </SidebarWrapper>
     </SidebarContainer>
   )

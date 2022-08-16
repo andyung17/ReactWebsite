@@ -8,10 +8,24 @@
 }
 
 .jobCard{
-  width: 900px;
+  max-width: 100%;
+  display:inline-block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 950px) {
+
+  .jobCard{
+    max-width: 99%;
+    max-height: 320px;
+    position: relative;
+    display:inline-block;
+    min-width: 100%;
+    
+  }
+
+}
+
+@media screen and (max-width: 769px) {
 
   .bd-placeholder-img {
     display:none;
@@ -19,13 +33,30 @@
 
   .card-body{
     text-align: left;
-    margin-left: -50px;
     font-size: 14px;
-    width: 500px;
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-left: -75px;
   }
 
   .jobCard{
-    width: 600px;
+    max-width: 99%;
+    position: relative;
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+
+  .card-title{
+    font-size: 16px;
+  }
+
+  .jobCard{
+    position: relative;
+    display: flex;
   }
 
 }
@@ -34,13 +65,20 @@
 
   .card-body{
     text-align: left;
-    margin-left: -100px;
+    margin-left: -75px;
     font-size: 12px;
-    width: 300px;
+    max-width: 99%;
+    display: inline-block;
+    position: relative;
   }
 
   .jobCard{
-    width: 200px;
+    position: absolute;
+    display: flex;
+  }
+
+  .card-title{
+    font-size: 14px;
   }
 
 }
