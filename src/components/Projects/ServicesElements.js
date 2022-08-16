@@ -6,12 +6,6 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #010606;
-  @media screen and (max-width: 768px) {
-    height: 1600px;
-  }
-  @media screen and (max-width: 480px) {
-    height: 1600px;
-  }
  `
 export const ServicesWrapper = styled.div`
     max-width: 1000px;
