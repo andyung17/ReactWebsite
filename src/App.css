@@ -9,13 +9,24 @@
 
 .jobCard{
   max-width: 100%;
-  display:inline-block;
+}
+
+.card-company{
+  float: right;
+}
+
+.smallUI{
+  display: none;
+}
+
+.smallUIBadge{
+  display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
 
   .jobCard{
-    max-width: 99%;
+    max-width: 100%;
     max-height: 320px;
     position: relative;
     display:inline-block;
@@ -25,34 +36,60 @@
 
 }
 
-@media screen and (max-width: 769px) {
-
+@media screen and (max-width: 950px) {
   .bd-placeholder-img {
     display:none;
   }
 
   .card-body{
     text-align: left;
-    font-size: 14px;
+    float: left;
+    margin-left: -150px;
+  }
+}
+
+/* @media screen and (max-width: 1050px) {
+
+
+  .bd-placeholder-img{
+    max-width: 200%;
+    max-height: 200%;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+
+  .card-body{
+    text-align: left;
+    font-size: 15px;
     max-width: 100%;
-    display: inline-block;
-    position: relative;
+    max-height: 100%;
     margin-left: -75px;
   }
 
   .jobCard{
     max-width: 99%;
     position: relative;
-    display: flex;
+  }
+
+  .smallUI{
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-company{
+    font-size: 16px;
+    text-align: left;
+    float: left;
   }
 
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
 
-  .card-title{
+  /* .card-title{
     font-size: 16px;
-  }
+  } */
 
   .jobCard{
     position: relative;
@@ -61,7 +98,29 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 412px){
+  .secondBadge{
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 411px){
+  .firstBadge{
+    white-space: pre;
+  }
+
+  .smallUIBadge{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 406px){
+  .smallUIBadge{
+    display: block;
+  }
+}
+
+/* @media screen and (max-width: 480px) {
 
   .card-body{
     text-align: left;
@@ -77,8 +136,4 @@
     display: flex;
   }
 
-  .card-title{
-    font-size: 14px;
-  }
-
-}
+} */

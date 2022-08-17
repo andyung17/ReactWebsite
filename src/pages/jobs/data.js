@@ -6,10 +6,10 @@ export const jobObjectOne = {
     badgePrimary: 'Full-time',
     badgeSecondary: 'Ottawa',
     termDuration: '05/2022 - 08/2022',
-    jobDescription: 'Automated weather image digitizing for AI model analysis',
+    jobDescription: 'Automated weather data collection and image digitizing for AI models',
     jobDescription2: 'Improved solar predictions using Ray and Hive within Python',
     jobDescription3: 'Worked on improving the run-time of a variety of microservices',
-    jobDescription4: 'Practised integration testing on a variety microservices',
+    jobDescription4: 'Practised integration testing that contained many microservices',
     // jobDescription5: '\u2022 Practised integration testing on a variety microservices',
 }
 
@@ -38,7 +38,7 @@ export const jobObjectThree = {
     jobDescription: 'Developed and improved MVC architecture in .Net WPF',
     jobDescription2: 'Utilized MVVM toolkit to create a clean user interface',
     jobDescription3: 'Deployed Firebase to track real-time user information',
-    jobDescription4: 'Added controller support while practising 4 pillars of OOP',
+    jobDescription4: 'Added additional controller support while practising 4 pillars of OOP',
 }
 
 export const jobObjectFour = {

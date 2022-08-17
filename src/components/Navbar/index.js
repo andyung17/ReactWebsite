@@ -17,7 +17,7 @@ const Navbar = ({toggle}) => {
       <Nav>
         <NavbarContainer>
           <NavLinks to='home'>
-              <NavLogo to='home'>Home</NavLogo>
+              <NavLogo to=''>Home</NavLogo>
           </NavLinks>
           {/* <NavLogo to='/'>Home</NavLogo> */}
           <MobileIcon onClick={toggle}>

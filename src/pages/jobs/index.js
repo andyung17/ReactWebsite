@@ -46,13 +46,14 @@ const Jobs = ({jobTittle, jobCompany, badgePrimary, badgeSecondary, termDuration
                 </div>
                 <div className="col-md-8" style={{marginLeft: '4.5rem', display: 'flex'}}>
                     <div className="card-body">
-                        <h5 className="card-title"><strong>{jobTittle}</strong><span className='text-muted font-weight-light card-company' style={{float: 'right', display:'inline-block'}}> {jobCompany} </span> </h5>
-                            <Badge variant='secondary' className='mr-2' style={{marginBottom: '1rem'}}>
+                        <h5 className="card-title"><strong>{jobTittle}</strong><div className='smallUI'></div><span className='text-muted font-weight-light card-company'> {jobCompany} </span> </h5>
+                            <div className='smallUI'><br/></div><Badge variant='secondary' className='mr-2 firstBadge' style={{marginBottom: '1rem'}}>
                                 {badgePrimary}
-                            </Badge>
-                            <Badge variant='secondary' style={{marginLeft: '1rem'}}>
+                            </Badge><div className='smallUIBadge'></div>
+                            <Badge variant='secondary' className='secondBadge'>
                                 {badgeSecondary}
                             </Badge>
+                            <div className='smallUIBadge'><br/></div>
                         <p className="card-text text-muted mb-2">
                         {termDuration}
                         </p>

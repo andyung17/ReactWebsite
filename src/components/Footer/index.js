@@ -27,7 +27,7 @@ const Footer = () => {
           <FooterLinkWrapper>
             <FooterLinkItems>
             <FooterLinkTitle>Linkedin</FooterLinkTitle>
-              <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
+              <SocialIconLink href='https://www.linkedin.com/in/andy-ung-76b970194/' target='_blank' arial-label='Facebook'>
                 <FaLinkedin />
               </SocialIconLink>
                 {/* <FooterLink to='/'>How it works</FooterLink>
@@ -42,7 +42,7 @@ const Footer = () => {
                 <FooterLink to='/'>Support</FooterLink>
                 <FooterLink to='/'>Destinations</FooterLink>
                 <FooterLink to='/'>Sponsorships</FooterLink> */}
-                <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
+                <SocialIconLink href='https://github.com/andyung17' target='_blank' arial-label='Facebook'>
                 <FaGithub/>
               </SocialIconLink>
             </FooterLinkItems>
