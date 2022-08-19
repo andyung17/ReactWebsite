@@ -73,7 +73,7 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 450px;
   height: 100%;
 `
 
@@ -109,7 +109,7 @@ export const FooterLinkTitle = styled.div`
 export const FooterLinkWrapper = styled.div`
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
-  @media screen and (max-width: 626px) {
+  @media screen and (max-width: 350px) {
     flex-direction: column;
   }
 `

@@ -44,7 +44,7 @@ import { FaLinkedin, FaGithub, FaRegEnvelope} from 'react-icons/fa'
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={require('../../images/myface-modified.png')}  alt={alt}></Img>
+                                <Img className='contactImage' src={require('../../images/myface-modified.png')}  alt={alt}></Img>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
