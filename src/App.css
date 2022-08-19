@@ -120,6 +120,12 @@
   }
 }
 
+@media screen and (max-width: 628px){
+  .contactImage{
+    display: none;
+  }
+}
+
 /* @media screen and (max-width: 480px) {
 
   .card-body{

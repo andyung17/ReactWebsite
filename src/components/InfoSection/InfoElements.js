@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#181818')};
 `
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 1300px; //860
+  height: 100vh; //860
   width: 100% auto;
   max-width: 1100px;
   margin-right: auto;
@@ -37,13 +37,12 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  max-width: 700px;
   padding-top: 0;
   padding-bottom: 60px;
 `
 
 export const Topline = styled.p`
-  color: #01bf71;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -74,7 +73,7 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 450px;
   height: 100%;
 `
 
@@ -82,4 +81,35 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+`
+
+export const SocialIconLink = styled.a`
+  color: #fff;
+  font-size: 45px;
+  align-items: center;
+  margin-right: 40px;
+`
+
+export const FooterLinkItems = styled.div`
+  margin-right: 30px;
+  max-width: 160px;
+  box-sizing: border-box;
+  color: #fff;
+  @media screen and (max-width: 420px) {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+`
+
+export const FooterLinkTitle = styled.div`
+  // margin-left: -15px;
+`
+
+export const FooterLinkWrapper = styled.div`
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  @media screen and (max-width: 350px) {
+    flex-direction: column;
+  }
 `
