@@ -28,28 +28,28 @@ const Projects = () => {
           <ServicesP>Technologies: <br/>Node.js, Python, JikanAPI, DiscordAPI, CircleCi, Heroku</ServicesP>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={gameDealFinder}/>
-          <ServicesH2>Game Deal Finder</ServicesH2>
-          <ServicesP>Tracks wishlisted games and shows deals acorss many websites.</ServicesP>
-          <ServicesP>Technologies: <br/>mySQL.. tbc</ServicesP>
+          <ServicesIcon src={facerec}></ServicesIcon>
+          <ServicesH2>Face Recognition</ServicesH2>
+          <ServicesP>Facial recognition software to analyze mass collection of photos</ServicesP>
+          <ServicesP>Technologies: <br/>Face recoginition, Python, Docker, CircleCi</ServicesP>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={amazonLogo}/>
-          <ServicesH2>Amazon Web Scrapper</ServicesH2>
-          <ServicesP>Collecting information about wishlisted items.</ServicesP>
-          <ServicesP>Technologies: <br/>Python, Selenium, BeautifulSoup, </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-        <ServicesIcon src={music}/>
+          <ServicesIcon src={music}/>
           <ServicesH2>Music Scraper</ServicesH2>
           <ServicesP>Created an API to extract music information from AniPlaylist</ServicesP>
           <ServicesP>Technologies: <br/>Flask, Pyppeteer, Python, Heroku</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={facerec}></ServicesIcon>
-          <ServicesH2>Face Recognition</ServicesH2>
-          <ServicesP>Facial recognition software to analyze mass collection of photos</ServicesP>
-          <ServicesP>Technologies: <br/>Face recoginition, Python, Docker, CircleCi</ServicesP>
+          <ServicesIcon src={gameDealFinder}/>
+          <ServicesH2>Game Deal Finder</ServicesH2>
+          <ServicesP>Tracks wishlisted games and shows deals acorss many websites.</ServicesP>
+          <ServicesP>Technologies: <br/>W.I.P</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={amazonLogo}/>
+          <ServicesH2>Amazon Web Scrapper</ServicesH2>
+          <ServicesP>Collecting information about wishlisted items.</ServicesP>
+          <ServicesP>Technologies: <br/>Python, Selenium, BeautifulSoup, </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={diabeticMealTracker}/>
