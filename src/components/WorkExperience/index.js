@@ -14,25 +14,33 @@ const WorkExperience = () => {
       <br/><br/><br/><br/>
       <ServicesH1>Work Experience</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard onClick={() => { window.location.href =
+              "https://www.bluwave-ai.com/"    
+            }} >
           <CardDisplay {...jobObjectOne}/>
         </ServicesCard>
       </ServicesWrapper>
       <br></br>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard onClick={() => { window.location.href =
+              "https://tc.canada.ca/en"    
+            }} >
           <CardDisplay {...jobObjectTwo}/>
         </ServicesCard>
       </ServicesWrapper>
       <br></br>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard onClick={() => { window.location.href =
+              "https://www.arkalumen.com/"    
+            }} >
           <CardDisplay {...jobObjectThree}/>
         </ServicesCard>
       </ServicesWrapper>
       <br></br>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard onClick={() => { window.location.href =
+              "https://www.canada.ca/en/shared-services.html"    
+            }} >
           <CardDisplay {...jobObjectFour}/>
         </ServicesCard>
       </ServicesWrapper>
