@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon2 from '../../images/FYON.png'
 import amazonLogo from '../../images/amazon.jpg'
-import gameDealFinder from '../../images/GDF.jpg'
+//import gameDealFinder from '../../images/GDF.jpg'
 import flyter from '../../images/Flyter.png'
 import buyIt from '../../images/buyIt.png'
 import diabeticMealTracker from '../../images/diabeticMealTracker.jpg'
@@ -27,37 +27,43 @@ const Projects = () => {
           <ServicesP>Gathering up-to-date information about anime.</ServicesP>
           <ServicesP>Technologies: <br/>Node.js, Python, JikanAPI, DiscordAPI, CircleCi, Heroku</ServicesP>
         </ServicesCard>
-        <ServicesCard onClick={() => { window.location.href =
-              "https://github.com/andyung17/FacialRecognition"    
-            }} >
+        <ServicesCard 
+          // onClick={() => { window.location.href =
+          //     "https://github.com/andyung17/FacialRecognition"    
+          //   }} 
+            >
           <ServicesIcon src={facerec}></ServicesIcon>
           <ServicesH2>Face Recognition</ServicesH2>
           <ServicesP>Facial recognition software to analyze mass collection of photos</ServicesP>
           <ServicesP>Technologies: <br/>Face recoginition, Python, Docker, CircleCi</ServicesP>
         </ServicesCard>
-        <ServicesCard onClick={() => { window.location.href =
-              "https://github.com/andyung17/Music-Scraper"    
-            }} >
+        <ServicesCard 
+        // onClick={() => { window.location.href =
+        //       "https://github.com/andyung17/Music-Scraper"    
+        //     }} 
+            >
           <ServicesIcon src={music}/>
           <ServicesH2>Music Scraper</ServicesH2>
           <ServicesP>Created an API to extract music information from AniPlaylist</ServicesP>
           <ServicesP>Technologies: <br/>Flask, Pyppeteer, Python, Heroku</ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        {/* <ServicesCard>
           <ServicesIcon src={gameDealFinder}/>
           <ServicesH2>Game Deal Finder</ServicesH2>
           <ServicesP>Tracks wishlisted games and shows deals acorss many websites.</ServicesP>
           <ServicesP>Technologies: <br/>W.I.P</ServicesP>
-        </ServicesCard>
+        </ServicesCard> */}
         <ServicesCard>
           <ServicesIcon src={amazonLogo}/>
           <ServicesH2>Amazon Web Scrapper</ServicesH2>
           <ServicesP>Collecting information about wishlisted items.</ServicesP>
           <ServicesP>Technologies: <br/>Python, Selenium, BeautifulSoup, </ServicesP>
         </ServicesCard>
-        <ServicesCard onClick={() => { window.location.href =
-              "https://github.com/Macomatic/TrackBite"    
-            }} >
+        <ServicesCard 
+        // onClick={() => { window.location.href =
+        //       "https://github.com/Macomatic/TrackBite"    
+        //     }} 
+            >
           <ServicesIcon src={diabeticMealTracker}/>
           <ServicesH2>TrackBite</ServicesH2>
           <ServicesP>Fitness and meal tracker that analyzes dietary and exercise habits</ServicesP>
@@ -69,9 +75,11 @@ const Projects = () => {
           <ServicesP>Created a fake e-commerce website with products to purchase for any user</ServicesP>
           <ServicesP>Technologies: <br/>React, CommerceJS API, Stripe API</ServicesP>
         </ServicesCard>
-        <ServicesCard onClick={() => { window.location.href =
-              "https://github.com/andyung17/Buy-It"    
-            }} >
+        <ServicesCard 
+        // onClick={() => { window.location.href =
+        //       "https://github.com/andyung17/Buy-It"    
+        //     }} 
+            >
           <ServicesIcon src={buyIt}></ServicesIcon>
           <ServicesH2>Buy It!</ServicesH2>
           <ServicesP>Price comparison app leveraging live pricing data.</ServicesP>

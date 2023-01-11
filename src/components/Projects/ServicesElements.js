@@ -43,7 +43,6 @@ export const ServicesCard = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursor:pointer;
   }
 
   @media screen and (min-width: 980px) and (max-width: 1440px){
@@ -54,6 +53,8 @@ export const ServicesCard = styled.div`
     margin: auto;
   }
 `
+//  //   cursor:pointer;
+
 export const ServicesIcon = styled.img`
   height: 160px;
   max-width: 160px;
