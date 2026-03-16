@@ -1,20 +1,20 @@
 export const homeObjOne = {
-    id: 'contact-me',
-    lightBg: false,
-    lightText: true,
-    lighttextDesc: true,
-    topLine: 'Andy Ung',
-    headline: 'Contact Information',
-    description: 'Phone: (613)-301-1381',
-    description2: 'Email: ung.andy01@gmail.com ',
-    buttonLabel: 'Get started',
-    imgStart: false,
-    img: '../../images/myface-modified.png',
-    alt: 'car',
-    dark: true,
-    primary: true,
-    darkText: false
-}
+  id: "contact-me",
+  lightBg: false,
+  lightText: true,
+  lighttextDesc: true,
+  topLine: "Andy Ung",
+  headline: "Contact Information",
+  description: "Phone: (613)-301-1381",
+  description2: "Email: ung.andy01@gmail.com ",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: "../../images/my_face.jpg",
+  alt: "car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
 
 // export const homeObjTwo = {
 //     lightBg: true,
