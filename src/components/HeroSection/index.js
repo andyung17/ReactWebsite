@@ -7,7 +7,7 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  HeroP_small,
+  HeroPSmall,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
@@ -39,7 +39,7 @@ const HeroSection = () => {
         ></img>
         <HeroH1>Software Engineer</HeroH1>
         <HeroP>OMSCS Student at Georgia Tech</HeroP>
-        <HeroP_small>Artificial Intelligence Specialization</HeroP_small>
+        <HeroPSmall>Artificial Intelligence Specialization</HeroPSmall>
         <HeroBtnWrapper>
           <Button
             onMouseEnter={onHover}

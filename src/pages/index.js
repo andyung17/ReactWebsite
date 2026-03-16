@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import Projects from "../components/Projects";
+// import Projects from "../components/Projects";
 // import Footer from '../components/Footer';
-import WorkExperience from "../components/WorkExperience";
+// import WorkExperience from "../components/WorkExperience";
 import InfoSection from "../components/InfoSection";
 import { homeObjOne } from "../components/InfoSection/Data";
 
