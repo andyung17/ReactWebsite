@@ -90,7 +90,7 @@ export const HeroP = styled.p`
   }
 `;
 
-export const HeroP_small = styled.p`
+export const HeroPSmall = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 18px;
